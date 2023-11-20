@@ -7,10 +7,9 @@ import {
   AspectRatio
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, WorkImage, Meta } from '../../components/work'
+import { Title, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
-import { color } from 'framer-motion'
 
 const Work = () => (
   <Layout title="Reels">
@@ -50,7 +49,7 @@ const Work = () => (
 
       <P style={{ marginLeft: '4px', marginTop: '10px' }}>
       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-       Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+  Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s.
       </P>
       
       <AspectRatio maxW="640px" ratio={1.7} my={4}>
