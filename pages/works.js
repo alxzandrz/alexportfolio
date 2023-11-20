@@ -34,8 +34,8 @@ const Works = () => (
             title="Title"
             thumbnail={thumbWalknote}
           >
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-       Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+  Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s.
           </WorkGridItem>
         </Section>
 
@@ -45,14 +45,14 @@ const Works = () => (
             title="Title"
             thumbnail={thumbFourPainters}
           >
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-       Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+  Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s.
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
           <WorkGridItem id="menkiki" thumbnail={thumbMenkiki} title="Title">
           Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-       Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+  Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
@@ -69,7 +69,7 @@ const Works = () => (
         <Section delay={0.3}>
           <WorkGridItem id="margelo" thumbnail={thumbMargelo} title="Title">
           Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-       Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+  Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s.
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
@@ -79,13 +79,13 @@ const Works = () => (
             title="Title"
           >
             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-       Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+  Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s.
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
           <WorkGridItem id="styly" thumbnail={thumbStyly} title="Title">
           Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-       Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+  Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
@@ -102,7 +102,7 @@ const Works = () => (
         <Section delay={0.5}>
           <WorkGridItem id="pichu2" thumbnail={thumbPichu2} title="Title">
           Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-       Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+  Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s.
           </WorkGridItem>
         </Section>
         <Section delay={0.5}>
@@ -112,13 +112,13 @@ const Works = () => (
             title="Title"
           >
             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-       Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+  Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s.
           </WorkGridItem>
         </Section>
         <Section delay={0.6}>
           <WorkGridItem id="amembo" thumbnail={thumbAmembo} title="Title">
           Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-       Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+  Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s.
           </WorkGridItem>
         </Section>
         
