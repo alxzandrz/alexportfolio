@@ -10,51 +10,58 @@ import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
+import { color } from 'framer-motion'
 
 const Work = () => (
-  <Layout title="Inkdrop">
+  <Layout title="Reels">
     <Container>
       <Title>
-        Inkdrop <Badge>2016-</Badge>
+        Reels <Badge>2023-</Badge>
       </Title>
       <P>
-        A Markdown note-taking app with 100+ plugins, cross-platform and
-        encrypted data sync support. The life-time revenue is more than $300k.
+      A collection of creative animations for Renderforest, 
+      enhancing the creation of unique and engaging content for Instagram Reels, Stories, and other posts
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://www.inkdrop.app/">
-            https://www.inkdrop.app/ <ExternalLinkIcon mx="2px" />
+          <Link href="https://www.renderforest.com/" target="_blank">
+          https://www.renderforest.com/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
-          <Meta>Platform</Meta>
-          <span>Windows/macOS/Linux/iOS/Android</span>
+          <Meta>Sowftware</Meta>
+          <span>Adobe Illustrator / After Effects</span>
         </ListItem>
         <ListItem>
-          <Meta>Stack</Meta>
-          <span>NodeJS, Electron, React Native</span>
-        </ListItem>
-        <ListItem>
-          <Meta>Blogpost</Meta>
-          <Link href="https://blog.inkdrop.app/how-ive-attracted-the-first-500-paid-users-for-my-saas-that-costs-5-mo-7a5b94b8e820">
-            How I’ve Attracted The First 500 Paid Users For My SaaS That Costs
-            $5/mo <ExternalLinkIcon mx="2px" />
+          <Meta>Illustrator</Meta>
+          <span>Vard Israyelyan </span>
+          <Link href="https://www.behance.net/vard-israelyan" target="_blank" >
+           Behance <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
+        
       </List>
 
-      <WorkImage src="/images/works/inkdrop_01.png" alt="Inkdrop" />
-      <WorkImage src="/images/works/inkdrop_02.png" alt="Inkdrop" />
+       {/* <WorkImage src="/images/works/inkdrop_01.png" alt="Inkdrop" />
+       {<WorkImage src="/images/works/inkdrop_02.png" alt="Inkdrop" />} */}
+
+      <span  style={{ fontSize: '20px' }} >Black Friday Sale Reels</span>
+
+      <P style={{ marginLeft: '4px', marginTop: '10px' }}>
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+       Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+      </P>
+      
       <AspectRatio maxW="640px" ratio={1.7} my={4}>
         <iframe
-          src="https://www.youtube.com/embed/-qBavwqc_mY"
-          title="YouTube video player"
-          frameBorder="0"
+          src="https://player.vimeo.com/video/884763915?h=04297e0a53&color=3271E6&title=0&byline=0&portrait=0s"
+          title="Vimeo video player"
+          frameBorder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
+          allowFullScreen>
+        </iframe>
+        
       </AspectRatio>
     </Container>
   </Layout>
