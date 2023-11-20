@@ -16,10 +16,7 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { GridItem } from '../components/grid-item'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoBehance } from 'react-icons/io5'
-import thumbYouTube from '../public/images/links/youtube.png'
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 import Image from 'next/image'
 
 const ProfileImage = chakra(Image, {
@@ -45,7 +42,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Alex Andreasyan
           </Heading>
-          <p>Digital Craftsman ( Motion Designer / Designer )</p>
+          Hello, I&apos;m an Motion Designer based in Armenia!
         </Box>
         <Box
           flexShrink={0}
@@ -79,15 +76,15 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Hello, my name is Alex, and I'm a motion designer based in Yerevan. 
-          I have extensive experience in the field, with skills that encompass 
-          creating dynamic and creative animations for digital products.
-I am passionately involved in the visualization process, bringing ideas to life 
-through motion. My professional journey includes diverse projects, ranging from 
-planning and design to implementing solutions using cutting-edge technologies.
-Currently, I am actively developing my portfolio and promoting my works. If you 
-have any questions or are interested in collaboration, feel free to get in touch with me.
-        </Paragraph>
+  Hello, my name is Alex, and I&apos;m a motion designer based in Yerevan.
+  I have extensive experience in the field, with skills that encompass 
+  creating dynamic and creative animations for digital products.
+  I am passionately involved in the visualization process, bringing ideas to life 
+  through motion. My professional journey includes diverse projects, ranging from 
+  planning and design to implementing solutions using cutting-edge technologies.
+  Currently, I am actively developing my portfolio and promoting my works. If you 
+  have any questions or are interested in collaboration, feel free to get in touch with me.
+</Paragraph>
         <Box align="center" my={4}>
           <Button
             as={NextLink}
@@ -121,7 +118,7 @@ have any questions or are interested in collaboration, feel free to get in touch
         </BioSection>
         <BioSection>
           <BioYear>2019</BioYear>
-          Working at Cinema "Hayastan"
+          Working at Cinema &apos;Hayastan&apos;
         </BioSection>
         <BioSection>
           <BioYear>2022 to present</BioYear>
