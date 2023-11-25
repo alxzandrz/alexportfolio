@@ -118,7 +118,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2019</BioYear>
-          Working at Cinema &apos;Hayastan&apos;
+          Worked at Cinema &apos;Hayastan&apos;
         </BioSection>
         <BioSection>
           <BioYear>2022 to present</BioYear>
