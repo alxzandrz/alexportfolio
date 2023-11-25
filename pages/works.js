@@ -40,7 +40,7 @@ const Works = () => (
           </WorkGridItem>
         </Section>
 
-        <Section delay={0.1}>
+    {/*   <Section delay={0.1}>
           <WorkGridItem
             id="fourpainters"
             title="Title"
