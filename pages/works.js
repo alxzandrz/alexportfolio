@@ -40,7 +40,7 @@ const Works = () => (
           </WorkGridItem>
         </Section>
 
-        <Section delay={0.1}>
+     {/*   <Section delay={0.1}>
           <WorkGridItem
             id="fourpainters"
             title="Title"
@@ -121,10 +121,10 @@ const Works = () => (
           Lorem Ipsum is simply dummy text of the printing and typesetting industry.
   Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s.
           </WorkGridItem>
-        </Section>
+</Section> */}
         
         
-      </SimpleGrid>
+      </SimpleGrid> 
     </Container>
   </Layout>
 )
