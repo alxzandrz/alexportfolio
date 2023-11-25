@@ -1,18 +1,18 @@
-import { Container, Heading, SimpleGrid, /*Divider */} from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid, /*Divider*/} from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import thumbReels from '../public/images/works/Reels_thumb.jpg'
 import thumbIntros from '../public/images/works/intros.webp'
-{/*import thumbFourPainters from '../public/images/works/no_img.png'
-import thumbMenkiki from '../public/images/works/no_img.png'
-import thumbMargelo from '../public/images/works/no_img.png'
-import thumbModeTokyo from '../public/images/works/no_img.png'
+import thumbopeners from '../public/images/works/openers.webp'
+import thumbAnimations from '../public/images/works/Animations.webp'
+import thumbTitlepacks from '../public/images/works/Titlepacks.webp'
+{/* import thumbModeTokyo from '../public/images/works/no_img.png'
 import thumbStyly from '../public/images/works/no_img.png'
 import thumbPichu2 from '../public/images/works/no_img.png'
 import thumbFreeDBTagger from '../public/images/works/no_img.png'
-import thumbAmembo from '../public/images/works/no_img.png'*/}
+import thumbAmembo from '../public/images/works/no_img.png' */}
 
 const Works = () => (
   <Layout title="Works">
@@ -40,40 +40,34 @@ const Works = () => (
           </WorkGridItem>
         </Section>
 
-    {/*   <Section delay={0.1}>
+      <Section delay={0.1}>
           <WorkGridItem
-            id="fourpainters"
-            title="Title"
-            thumbnail={thumbFourPainters}
+            id="openers"
+            title="Openers"
+            thumbnail={thumbopeners}
           >
-             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-  Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s.
+             Openers and Trailers, inspiring the creation of captivating content.
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-          <WorkGridItem id="menkiki" thumbnail={thumbMenkiki} title="Title">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-  Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s.
+          <WorkGridItem id="animations" 
+          thumbnail={thumbAnimations} title="Animations">
+          Scene animations, crafted by talented illustrators, 
+          inspire the creation of captivating content.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
 
-      <Section delay={0.2}>
-        <Divider my={6} />
-
-        <Heading as="h3" fontSize={20} mb={4}>
-          Chalange
-        </Heading>
-      </Section>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
-          <WorkGridItem id="margelo" thumbnail={thumbMargelo} title="Title">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-  Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s.
+          <WorkGridItem id="titlepacks" 
+          thumbnail={thumbTitlepacks} title="Title Pack&apos;s">
+         Title Packs, meticulously designed by skilled artists,
+         elevate the visual appeal of your content, sparking creativity and engagement.
           </WorkGridItem>
         </Section>
-        <Section delay={0.3}>
+       {/* <Section delay={0.3}>
           <WorkGridItem
             id="modetokyo"
             thumbnail={thumbModeTokyo}
@@ -101,7 +95,8 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
-          <WorkGridItem id="pichu2" thumbnail={thumbPichu2} title="Title">
+          <WorkGridItem id="pichu2"
+          thumbnail={thumbPichu2} title="Title">
           Lorem Ipsum is simply dummy text of the printing and typesetting industry.
   Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s.
           </WorkGridItem>
