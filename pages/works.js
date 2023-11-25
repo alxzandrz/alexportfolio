@@ -3,8 +3,8 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import thumbInkdrop from '../public/images/works/Reels_thumb.jpg'
-import thumbWalknote from '../public/images/works/no_img.png'
+import thumbReels from '../public/images/works/Reels_thumb.jpg'
+import thumbIntros from '../public/images/works/intros.webp'
 import thumbFourPainters from '../public/images/works/no_img.png'
 import thumbMenkiki from '../public/images/works/no_img.png'
 import thumbMargelo from '../public/images/works/no_img.png'
@@ -23,19 +23,20 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="inkdrop" title="Reels" thumbnail={thumbInkdrop}>
+          <WorkGridItem id="reels" 
+          title="Reels" thumbnail={thumbReels}>
           A collection of creative animations for Renderforest, 
           enhancing the creation of unique and engaging content for Instagram Reels, Stories, and other posts
           </WorkGridItem>
         </Section>
         <Section>
           <WorkGridItem
-            id="walknote"
-            title="Title"
-            thumbnail={thumbWalknote}
+            id="intros"
+            title="Intros"
+            thumbnail={thumbIntros}
           >
-             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-  Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s.
+             Unique animations complementing the creation of engaging content for intros and logo animations, 
+             suitable for various platforms, including digital media.
           </WorkGridItem>
         </Section>
 
